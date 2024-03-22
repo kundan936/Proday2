@@ -19,7 +19,7 @@ public class Dataprovider {
 	}
 	@DataProvider(name="testsdata")
 	public Object[][] getdata() {
-		Object[][] data = new Object[5][2];
+		Object[][] data = new Object[6][2];
 		data [0][0] = "vasuvespag";
 		data [0][1] = "vasu1234";
 		data [1][0] = "Sriyaseth";
@@ -30,6 +30,8 @@ public class Dataprovider {
 		data [3][1] = "OY38RV";
 		data [4][0] = "chaithuu";
 		data [4][1] = "12309876";
+		data [5][0] = "34567";
+		data [5][1] = "098765";
  		return data;
 	}
 }
