@@ -33,7 +33,7 @@ public class NewTest {
 	  driver = new ChromeDriver();
 	  driver.get("https://adactinhotelapp.com/");
 	  driver.findElement(By.id("username")).sendKeys("vasuvespag");
-	  driver.findElement(By.id("password")).sendKeys("vasu1234");
+	  driver.findElement(By.id("password")).sendKeys("vasu12345");
 	  driver.findElement(By.id("login")).click();
 	  String greeting = driver.findElement(By.id("username_show")).getAttribute("value");
 	  if (greeting.equalsIgnoreCase(ExpectedText)) {
